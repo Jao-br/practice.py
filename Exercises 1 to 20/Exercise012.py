@@ -5,4 +5,4 @@ price = float(input("Insert the price of the product: "))
 discount = float(input("Insert the amount of discount without the %: "))
 discountedprice = price - (price * discount / 100)
 
-print(f"The original price was {price:.2f}, the new price with {discount:.2f}% discount is {discountedprice:.2f} dolars")
+print(f"The original price was ${price:.2f}, the new price with {discount:.2f}% discount is ${discountedprice:.2f} dollars")
