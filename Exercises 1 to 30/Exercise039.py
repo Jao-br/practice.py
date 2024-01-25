@@ -22,4 +22,4 @@ else:
         print(f"Seu alistamento está {age - 18} anos atrasado soldado! Procure a juta militar mais proxima a sua casa para realizar seu alistamento.")
 
     elif age < 45:
-        print()
+        print("Suas obrigações com o Serviço Militar Obrigatório estão quitadas")
