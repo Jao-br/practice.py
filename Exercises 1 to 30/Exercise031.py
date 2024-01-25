@@ -5,3 +5,5 @@ if distance <= 200:
     price = distance * 0.50
 else:
     price = distance * 0.45
+    
+print(f"O valor da sua viagem é de R${price}")
