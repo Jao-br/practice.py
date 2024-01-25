@@ -4,3 +4,18 @@
 # - Até 19 anos: JÚNIOR
 # - Até 25 anos: SÊNIOR
 # - Acima de 25 anos: MASTER
+
+age = int(input("Input idade: "))
+
+if age <= 9:
+    print(f"Sua idede é de {age} anos, sua categoria é MIRIM")
+
+if age <= 14:
+    print(f"Sua idede é de {age} anos, sua categoria é INFANTIL")
+    
+if age <= 19:
+    print(f"Sua idede é de {age} anos, sua categoria é JUNIOR")
+
+if age <= 25:
+    print(f"Sua idede é de {age} anos, sua categoria é SENIOR")
+    
