@@ -19,7 +19,7 @@ else:
         print(f"Você tem exatos {age} anos, Soldado! Chegou a hora do seu Alistamento")
 
     elif age < 18: 
-        print("Jã passou da hora de você se alistar SOLDADO !")
+        print(f"Seu alistamento está {age - 18} anos atrasado soldado! Procure a juta militar mais proxima a sua casa para realizar seu alistamento.")
 
-        tempo_passou =  age - 18
-        print("Você deveria ter se alistado a {} anos, vá ao posto de alistamento mais proximo !".format(tempo_passou))
+    elif age < 45:
+        print()
