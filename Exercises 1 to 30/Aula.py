@@ -1,9 +1,9 @@
-# Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente, 
-# de um triângulo retângulo, e calcule o comprimento da hipotenusa. 
+from random import choice 
 
-from math import hypot 
-catetoOposto = int (input ("Digite o cateto Oposto? "))
-catetoAdjacente= int ((input ("Digite o cateto Adjacente? ")))
-hipotenusa= hypot (catetoOposto, catetoAdjacente)
+num = 40 
+list = [39, ]
 
-print(f"A hip desse triângulo será {hipotenusa:.4f}")
+while 70 < num < 40:   
+    num =+ 1 
+    list.append(num)
+   
