@@ -5,5 +5,5 @@ letra = str(input("Insira valores F ou M: ")).upper()
 while letra not in "FM":
     print("Valor incorreto, Digite novamente!")
     break
-
+    
 print("valor correto!, obrigado.")
