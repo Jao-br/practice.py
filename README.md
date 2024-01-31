@@ -20,6 +20,7 @@ To use the exercises in this repository, you can clone the repository to your lo
 
 ```bash
 git clone https://github.com/Jao-br/practice.py.git
+```
 
 After cloning the repository, you can navigate to the directory containing the exercise you want to work on and open the corresponding README file in your preferred text editor or IDE. Follow the instructions in the README file to complete the exercise.
 
