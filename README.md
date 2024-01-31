@@ -26,10 +26,6 @@ After cloning the repository, you can navigate to the directory containing the e
 
 Feel free to contribute to this repository by submitting pull requests with new exercises or improvements to existing ones.
 
-After cloning the repository, you can navigate to the directory containing the exercise you want to work on and open the corresponding README file in your preferred text editor or IDE. Follow the instructions in the README file to complete the exercise.
-
-
-Feel free to contribute to this repository by submitting pull requests with new exercises or improvements to existing ones.
 
 
 ## Table of Contents
