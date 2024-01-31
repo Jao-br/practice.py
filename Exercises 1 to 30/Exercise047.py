@@ -2,7 +2,8 @@
 
 numbers = []
 for i in range(1,51):
-    print(i)
-    numbers.append(i)
+    if i % 2 == 0: 
+        print(i)
+        numbers.append(i)
 
 print(numbers)
