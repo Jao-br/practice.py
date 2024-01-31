@@ -4,21 +4,26 @@
 # - em até 2x no cartão: preço formal
 # - 3x ou mais no cartão: 20% de juros
 
-price = float(input('Input produt price: R$'))
+price = float(input('INSIRA O VALOR DO PRODUTO: R$'))
 
-print(f'Digite o número da opção de pagamento desejada:\n [1] À vista dinheiro/cheque:  10% Off.\n [2] À vista no cartão:  5% Off.\n [3] Em até 2x no cartão:  Preço Formal\n [4] 3x ou mais no cartão:  20% de Juros sob o Montante Total')
+print('-' * 60)
+print(f'> Tabela de Descontos/Acréscimos:\n - À vista dinheiro ou cheque:  10% Off.\n - À vista no cartão:  5% Off.\n - Em até 2x no cartão:  Preço Formal\n - 3x ou mais no cartão:  20% de Juros sob o Montante Total')
+print('-' * 60)
+print('> Escolha a Forma de Pagamento desejada:\n [1] para Dinheiro à vista.\n [2] para Cheque à vista.\n [3] para Cartão.')
 pay_method = int(input('Opção: '))
 
-if pay_method == 1:
+if pay_method in (1,2):
     price = price * 0.9
-elif pay_method == 2:
-    price = price * 0.95
 elif pay_method == 3:
-    price = price 
-elif pay_method == 4:
-   price = price * 1.2
+    parcelas = int(input(f'Insira o número de parcelas: '))
+    if parcelas == 1:
+        price = price * 0.95
+    elif parcelas == 2:
+        price = price
+    elif parcelas > 2: 
+        price = price * 1.20 
 else: 
-    print("Invalid payment method")
+    print("OPÇÃO INVÁLIDA!")
 
-print(f'The Fina Price is: R${price}')
-
+print('-' * 60)
+print(f'PREÇO FINAL: R${price}')
