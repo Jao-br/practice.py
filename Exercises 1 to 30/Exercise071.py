@@ -1,0 +1,2 @@
+# Create a program that simulates the operation of an ATM. At the beginning, ask the user what amount will be withdrawn (whole number) and the program will inform how many bills of each amount will be delivered.
+# NOTE: consider that the cashier has banknotes worth R$50, R$20, R$10 and R$1.
